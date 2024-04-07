@@ -75,7 +75,6 @@ body {
     text-align: justify;
 }
 
-<<<<<<< HEAD
 /*Productos*/
 .active {
     background-color: #007bff;
@@ -110,10 +109,10 @@ body {
 .img-fluid {
     max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
-=======
+}
+
 /* CSS Fabrizio */
 
 .bg-marino {
     background-color: #044b91; /* Azul marino */
->>>>>>> fabricio
 }
