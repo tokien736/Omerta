@@ -8,9 +8,28 @@ body {
     max-width: 1280px;
     margin: 0 auto;
 }
+.principal{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/tiendavirtual-59927.appspot.com/o/Pruebas%2Fimagen1.webp?alt=media&token=e1f59e2e-7b3b-4542-a184-2d962de8d5c2'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 50vh; /* Cubrir toda la pantalla verticalmente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo con opacidad */
+    z-index: 0;
+    position: relative;    
+}
+.principal h1 {
+    color: white;
+}
+
+
+
 
 .jumbotron {
-    background-image: url('/img/imagen1.webp'); /* Ruta de la imagen de fondo */
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/tiendavirtual-59927.appspot.com/o/Pruebas%2Fimagen1.webp?alt=media&token=e1f59e2e-7b3b-4542-a184-2d962de8d5c2'); /* Ruta de la imagen de fondo */
     background-size: cover;
     background-position: center;
     height: 50vh; /* Cubrir toda la pantalla verticalmente */
@@ -115,4 +134,28 @@ body {
 
 .bg-marino {
     background-color: #044b91; /* Azul marino */
+}
+
+.panel {
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+
+  .panel-quees {
+    background-color: #f8f9fa; /* Color gris claro */
+    color: #495057; /* Color gris oscuro */
+  }
+
+  .panel-img img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .container-terminos {
+    text-align: justify;
+  }
+
+  .centered-button {
+    text-align: center;
 }
