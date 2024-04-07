@@ -10,7 +10,7 @@ body {
 }
 
 .jumbotron {
-    background-image: url('/img/fondo-1.webp'); /* Ruta de la imagen de fondo */
+    background-image: url('/img/imagen1.webp'); /* Ruta de la imagen de fondo */
     background-size: cover;
     background-position: center;
     height: 60vh; /* Cubrir toda la pantalla verticalmente */
@@ -48,7 +48,7 @@ body {
     margin-bottom: 20px;
 }
 
-.info-container p {
+.info-container +p {
     font-size: 16px;
     line-height: 1.6;
     text-align: justify;
@@ -75,3 +75,8 @@ body {
     text-align: justify;
 }
 
+/* CSS Fabrizio */
+
+.bg-marino {
+    background-color: #044b91; /* Azul marino */
+}
