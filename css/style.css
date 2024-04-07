@@ -13,7 +13,7 @@ body {
     background-image: url('/img/imagen1.webp'); /* Ruta de la imagen de fondo */
     background-size: cover;
     background-position: center;
-    height: 60vh; /* Cubrir toda la pantalla verticalmente */
+    height: 50vh; /* Cubrir toda la pantalla verticalmente */
     display: flex;
     align-items: center;
     justify-content: center;
