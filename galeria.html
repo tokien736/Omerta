@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería de Imágenes</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Estilos adicionales */
+    .gallery img {
+      width: 100%;
+      height: auto;
+    }
+    .container {
+      text-align: center;
+      border: 2px solid #000;
+    }
+    .col-md-4 {
+        text-align: center;
+      border: 2px solid #000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="text-center">Galería de Imágenes</h1>
+    <div class="row gallery">
+      <div class="col-md-4">
+        <a href="gal/1.jpg" class="d-block mb-4 h-100">
+          <img src="gal/1.jpg" alt="Imagen 1" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="gal/2.jpg" class="d-block mb-4 h-100">
+          <img src="gal/2.jpg" alt="Imagen 2" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="gal/3.jpg" class="d-block mb-4 h-100">
+          <img src="gal/3.jpg" alt="Imagen 3" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="gal/4.jpg" class="d-block mb-4 h-100">
+          <img src="gal/4.jpg" alt="Imagen 4" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="gal/5.jpg" class="d-block mb-4 h-100">
+          <img src="gal/5.jpg" alt="Imagen 5" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="gal/6.jpg" class="d-block mb-4 h-100">
+          <img src="gal/6.jpg" alt="Imagen 6" class="img-fluid">
+        </a>
+      </div>
+      <!-- Agrega más columnas con imágenes según sea necesario -->
+    </div>
+  </div>
+
+  <!-- Bootstrap JS y dependencias -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
