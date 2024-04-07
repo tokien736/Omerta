@@ -86,3 +86,27 @@ body {
 .productos-conta{
     padding: 64px 20px 64px 20px;
 }
+/* CSS DANIEL*/
+.jumbotron-spacing {
+    padding: 50px;
+}
+
+.text-white {
+    color: white;
+}
+.jumbotron-spacing {
+    padding: 50px;
+    background-color: #333; /* Color de fondo para el jumbotron */
+}
+
+.text-white {
+    color: white;
+}
+
+.precio-granate {
+    color: maroon; /* Color granate */
+}
+.img-fluid {
+    max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
