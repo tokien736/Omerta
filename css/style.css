@@ -10,10 +10,10 @@ body {
 }
 
 .jumbotron {
-    background-image: url('/img/fondo-1.webp'); /* Ruta de la imagen de fondo */
+    background-image: url('/img/imagen1.webp'); /* Ruta de la imagen de fondo */
     background-size: cover;
     background-position: center;
-    height: 60vh; /* Cubrir toda la pantalla verticalmente */
+    height: 50vh; /* Cubrir toda la pantalla verticalmente */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +48,7 @@ body {
     margin-bottom: 20px;
 }
 
-.info-container p {
+.info-container +p {
     font-size: 16px;
     line-height: 1.6;
     text-align: justify;
@@ -75,6 +75,7 @@ body {
     text-align: justify;
 }
 
+<<<<<<< HEAD
 /*Productos*/
 .active {
     background-color: #007bff;
@@ -109,4 +110,10 @@ body {
 .img-fluid {
     max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
+=======
+/* CSS Fabrizio */
+
+.bg-marino {
+    background-color: #044b91; /* Azul marino */
+>>>>>>> fabricio
 }

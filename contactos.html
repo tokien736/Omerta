@@ -9,31 +9,35 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-marino">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Nombre de tu Empresa</a>
+              <img src="img/hares.jpg" alt="Logo izquierdo" class="img-fluid" style="max-height: 30px; margin-right: 10px;">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre nosotros</a>
+                    <a class="nav-link" href="sobre-nosotros.html">Sobre nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contáctanos</a>
+                    <a class="nav-link" href="contactos.html">Contáctanos</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Productos</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="ubicacion.html">Ubicacion</a>
+                  </li>
                 </ul>
               </div>
             </div>
+            <img src="img/hares.jpg" alt="Logo izquierdo" class="img-fluid" style="max-height: 30px; margin-right: 10px;">
           </nav>
     </header>
 
     <div class="jumbotron">
-        <h1 class="display-4">Contactanos</h1>
+      <h1 class="display-4"><strong>Contacta con nosotros</strong></h1>
     </div>
 
     <main class="main-container">
@@ -41,13 +45,13 @@
           <div class="row">
             <div class="col-md-6">
               <div class="company-info">
-                <h1>Contact Us</h1>
-                <p>Please fill out the form below to get in touch with us.</p>
-                <h2>Company Name</h2>
+                <h1><strong>Contacto</strong></h1>
+                <p>Si quieres saber mas informacion sobre nuestros productos o servicios que brindamos, rellena nuestro formulario y nos pondremos en contacto contigo lo mas antes posible</p>
+                <h2><strong>HARES SERVICIOS INFORMÁTICOS S.A.C</strong></h2>
                 <p>
-                  Location: Address<br>
-                  Phone: +1234567890<br>
-                  Social Media: 
+                  <i class="bi bi-geo-alt-fill me-2"></i> MZA. E LOTE. 5 INT. B URB. CRUZPATA<br>
+                  <i class="bi bi-telephone-fill me-2"></i> 958346721 / 944539165<br>
+                  <span>Redes Sociales:
                   <a href="#" class="me-2"><i class="bi bi-facebook"></i></a>
                   <a href="#" class="me-2"><i class="bi bi-twitter"></i></a>
                   <a href="#"><i class="bi bi-instagram"></i></a>
@@ -58,16 +62,20 @@
               <div class="contact-form">
                 <form action="#" method="POST">
                   <div class="mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" required>
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="nombre" class="form-control" id="nombre" name="nombre" required>
                   </div>
                   <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
+                    <label for="correo" class="form-label">Correo</label>
+                    <input type="correo" class="form-control" id="correo" name="correo" required>
                   </div>
                   <div class="mb-3">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    <label for="telefono" class="form-label">Telefono</label>
+                    <input type="telefono" class="form-control" id="telefono" name="telefono" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
                   </div>
                   <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
@@ -79,9 +87,9 @@
     
 
       
-    <footer class="footer bg-dark text-white text-center">
+    <footer class="footer bg-marino text-white text-center">
         <div class="container p-4">
-            <span>© 2024 Nombre de tu Empresa. Todos los derechos reservados.</span>
+            <span>© 2024 Hares Servicios Informaticos S.A.C. Todos los derechos reservados.</span>
         </div>
     </footer>
 
